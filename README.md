@@ -45,9 +45,7 @@ sudo tcpdump -i <iface> -w "pcaps/<label>_$(date +%s).pcap" &
 TCPDUMP_PID=$!
 <simulate traffic>
 sudo kill $TCPDUMP_PID
-### 📂 PCAP Dataset Access
+## 📂 PCAP Dataset Access
 
-The PCAP files used in this project are available here:  
-🔗 [Download PCAPs from Google Drive]([https://drive.google.com/drive/folders/YOUR_FOLDER_ID](https://drive.google.com/drive/folders/1zzQViHs5SzAYK_nfCxWjaI6-jUvZx0ka?usp=drive_link))
+[Click here to access the full PCAP dataset](https://drive.google.com/drive/folders/1zzQViHs5SzAYK_nfCxWjaI6-jUvZx0ka?usp=drive_link)
 
-Place them under:  
